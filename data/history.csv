@@ -1,0 +1,34 @@
+Date & Time,Symptoms,Predicted Diseases,Medications,Suggested Doctors
+2025-11-05 22:28:35,fever,seasonal allergies (hay fever),,General Physician
+2025-11-05 22:35:15,fever,seasonal allergies (hay fever),,General Physician
+2025-11-05 22:36:04,fever,seasonal allergies (hay fever),,General Physician
+2025-11-05 22:39:58,"fever, cold","common cold, seasonal allergies (hay fever)","Antihistamine, Cough Syrup","ENT Specialist, General Physician"
+2025-11-05 22:43:49,"fever, cold, headache",,,
+2025-11-05 22:44:00,"fever, cold","common cold, seasonal allergies (hay fever)","Antihistamine, Cough Syrup","ENT Specialist, General Physician"
+2025-11-05 22:44:16,"fever, cold","common cold, seasonal allergies (hay fever)","Antihistamine, Cough Syrup","ENT Specialist, General Physician"
+2025-11-05 22:44:18,"fever, cold","common cold, seasonal allergies (hay fever)","Antihistamine, Cough Syrup","ENT Specialist, General Physician"
+2025-11-05 22:44:21,"fever, cold","common cold, seasonal allergies (hay fever)","Antihistamine, Cough Syrup","ENT Specialist, General Physician"
+2025-11-05 22:45:20,I am getting slight fever from last,seasonal allergies (hay fever),,General Physician
+2025-11-05 23:01:05,fever,seasonal allergies (hay fever),,General Physician
+2025-11-05 23:08:21,fever,seasonal allergies (hay fever),,General Physician
+2025-11-05 23:10:17,fever,seasonal allergies (hay fever),,General Physician
+2025-11-05 23:37:49,i have slight fever and cold,"common cold, seasonal allergies (hay fever)","Antihistamine, Cough Syrup","ENT Specialist, General Physician"
+2025-11-05 23:39:38,"""I’m experiencing fever, cough, and body pain for the past 3 days.""",,,
+2025-11-05 23:39:51,"""I have chest tightness and shortness of breath when climbing stairs.""","pneumonia, eczema, hypoglycemia",,"General Physician, General Physician, General Physician"
+2025-11-05 23:40:11,"""I have stomach cramps and diarrhea since yesterday.""",stomach cancer,,General Physician
+2025-11-05 23:40:30,"""My joints ache and I have swelling in my knees.""",,,
+2025-11-05 23:41:17,"""My joints ache and I have swelling in my knees.""",,,
+2025-11-05 23:41:18,"""My joints ache and I have swelling in my knees.""",,,
+2025-11-05 23:41:19,"""My joints ache and I have swelling in my knees.""",,,
+2025-11-05 23:41:19,"""My joints ache and I have swelling in my knees.""",,,
+2025-11-05 23:41:20,"""My joints ache and I have swelling in my knees.""",,,
+2025-11-05 23:42:17,fatigue,,,
+2025-11-05 23:42:38,Dehydration,,,
+2025-11-05 23:42:49,body pains,foreign body in the eye,,General Physician
+2025-11-05 23:43:25,Chest congestion,"pulmonary congestion, pneumonia, eczema",,"General Physician, General Physician, General Physician"
+2025-11-05 23:43:35,Chest congestion,"pulmonary congestion, pneumonia, eczema",,"General Physician, General Physician, General Physician"
+2025-11-05 23:47:22,i am suffering with cold and fever ,"common cold, seasonal allergies (hay fever)","Antihistamine, Cough Syrup","ENT Specialist, General Physician"
+2025-11-05 23:48:03,I am suffering with slight fever and cold from past night,"common cold, seasonal allergies (hay fever)","Antihistamine, Cough Syrup","ENT Specialist, General Physician"
+2025-11-06 21:32:42,fever,"gum disease, urinary tract infection, infectious gastroenteritis",,"General Physician, General Physician, General Physician"
+2025-11-06 21:33:04,"fever,cough,cold","conjunctivitis due to virus, oral mucosal lesion, meningitis",,"General Physician, General Physician, General Physician"
+2025-11-06 21:35:50,fever,"gum disease, urinary tract infection, infectious gastroenteritis","Consult Doctor, Hydration, Rest","General Physician, General Physician, General Physician"

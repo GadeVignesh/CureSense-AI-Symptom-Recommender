@@ -1,0 +1,11 @@
+flask
+scikit-learn
+pandas
+joblib
+sqlalchemy
+werkzeug
+streamlit
+requests
+SpeechRecognition
+numpy
+plotly
