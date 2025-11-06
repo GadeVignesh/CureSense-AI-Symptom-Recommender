@@ -1,5 +1,4 @@
-===========================================================
-🩺 CureSense — AI Symptom-to-Medication Recommender
+CureSense — AI Symptom-to-Medication Recommender
 ===========================================================
 
 CureSense is an AI-powered healthcare web application that helps users understand their symptoms, predict possible diseases, recommend medications, and suggest relevant doctors. 
