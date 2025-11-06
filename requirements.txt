@@ -10,3 +10,6 @@ SpeechRecognition
 numpy
 plotly
 gunicorn
+flask-cors
+
+
