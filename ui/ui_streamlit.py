@@ -8,7 +8,7 @@ import os
 from datetime import datetime
 import plotly.express as px
 
-API_BASE = "http://127.0.0.1:5000"
+API_BASE = "https://curesense-ai-symptom-recommender-4.onrender.com"
 APP_TITLE = "⚕ CureSense — AI Symptom Recommender"
 PRIMARY_COLOR = "#007bff"
 BG_COLOR = "#f4f8ff"
@@ -458,3 +458,4 @@ st.markdown(
     """,
     unsafe_allow_html=True
 )
+
