@@ -7,9 +7,6 @@ import io
 import os
 from datetime import datetime
 import plotly.express as px
-from flask_cors import CORS
-CORS(app)
-
 
 API_BASE = "https://curesense-ai-symptom-recommender-4.onrender.com"
 APP_TITLE = "⚕ CureSense — AI Symptom Recommender"
@@ -461,5 +458,6 @@ st.markdown(
     """,
     unsafe_allow_html=True
 )
+
 
 
