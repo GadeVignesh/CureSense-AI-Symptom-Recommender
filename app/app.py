@@ -1,17 +1,32 @@
 from flask import Flask, request, jsonify
+from flask_cors import CORS
 from app.db import init_db, SessionLocal, User, History
 from app.utils import predict_diseases, recommend_for_diseases
 from app.auth import bp as auth_bp, TOKENS
 import json
 
 app = Flask(__name__)
+CORS(app)  # ✅ Enables frontend (Streamlit) to access backend safely
 app.register_blueprint(auth_bp, url_prefix="/auth")
+
+# Initialize database
 init_db()
 
+# ✅ Root route to avoid "Not Found" error
+@app.route('/')
+def home():
+    return jsonify({
+        "message": "✅ CureSense Flask Backend is Live!",
+        "status": "running",
+        "endpoints": ["/health", "/predict", "/history", "/auth"]
+    })
+
+# ✅ Health check endpoint
 @app.route('/health', methods=['GET'])
 def health():
     return jsonify({'status': 'ok'})
 
+# ✅ Disease prediction endpoint
 @app.route('/predict', methods=['POST'])
 def predict():
     data = request.get_json() or {}
@@ -46,6 +61,7 @@ def predict():
         'doctor_types': docs
     })
 
+# ✅ User history endpoint
 @app.route('/history', methods=['GET'])
 def history():
     token = request.headers.get('Authorization')
@@ -71,5 +87,6 @@ def history():
     ]
     return jsonify({'user': username, 'history': history})
 
+# ✅ Run the app (Render uses Gunicorn, but this is for local testing)
 if __name__ == "__main__":
-    app.run(debug=True, port=5000)
+    app.run(host='0.0.0.0', port=5000, debug=True)
