@@ -9,3 +9,4 @@ requests
 SpeechRecognition
 numpy
 plotly
+gunicorn
